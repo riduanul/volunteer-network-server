@@ -18,6 +18,9 @@ app.use(cors());
 const port = 5000
 
 
+app.get('/', (req, res) => {
+  req.send("Hello from db it's working")
+})
 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:true });
 client.connect(err => {
@@ -80,9 +83,7 @@ app.get('/activityData', (req, res) => {
   })
 })
 
-app.get('/', (req, res) => {
-  req.send("Hello from db it's working")
-})
+
 
 });
 
