@@ -1,4 +1,4 @@
-# Volunteer Network  
+# Volunteer Network server
 ### A Social Activities Management Website 
 
 ##### Live Site https://volunteer-network-309d5.web.app/
@@ -13,4 +13,4 @@
 -   Admin Can create new activity. 
   
 ### Technologies: 
-#### JavaScript, React, React Router, Firebase, Node.js, MongoDB, heroku.
+#### Node.js, express.js, nodemon, bodyPerser, MongoDB, heroku.
